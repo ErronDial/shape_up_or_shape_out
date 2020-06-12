@@ -1,0 +1,16 @@
+#shape-container {
+    position: relative;
+    contain: paint;
+    height: 600px;
+    width: 600px;
+    background-color: gainsboro;
+
+}
+#shape-info {
+    height: 600px;
+    background-color: blue;
+}
+#container {
+    display: flex;
+
+}

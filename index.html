@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="output">
+        <h1>Shapes Calculator</h2>
+    </div>
+    <div id='btn-container'>
+        <h1>Rectangle</h1>
+        <input type='value' id='rectangle-height'>
+        <input type='value' id='rectangle-width'>
+        <button class="btn btn-sm btn-secondary mt-1" id='create-rectangle-btn'>Create a Rectangle</button>
+        <hr>
+        <h1>Square</h1>
+        <input type='value' id='square-height'>
+        <button class="btn btn-sm btn-secondary mt-1" id='create-square-btn'>Create a Square</button>
+        <hr>
+        <h1>Circle</h1>
+        <input type='value' id='circle-radius'>
+        <button class="btn btn-sm btn-secondary mt-1" id='create-circle-btn'>Create a Circle</button>
+        <hr>
+        <h1>Triangle</h1>
+        <input type='value' id='triangle-base'>
+        <input type='value' id='triangle-height'>
+        <button class="btn btn-sm btn-secondary mt-1" id='create-triangle-btn'>Create a Triangle</button>
+        <hr>
+        <div class="m-2">
+            <button class="btn btn-sm btn-secondary mt-1" id="random-button" type="button">Random Shape</button>
+        </div>
+
+    </div>
+    <div id=container></div>
+    <div id='shape-container'></div>
+    <div id='data-container'>
+    </div>Shape Name: </div>
+    <div>Width</div>
+    <div>Height</div>
+    <div>Radius</div>
+    <div>Area</div>
+    <div>Perameter</div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="apps.js"></script>
+</body>
+
+</html>
